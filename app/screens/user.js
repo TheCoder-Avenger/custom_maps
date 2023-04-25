@@ -4,10 +4,15 @@
 import React from 'react';
 import {View, Text} from 'react-native';
 
+/**
+ * Internal dependencies
+ */
+import EmptyScreen from '../components/empty-screen';
+
 function User() {
   return (
     <View>
-      <Text>User</Text>
+      <EmptyScreen data={'user'} />
     </View>
   );
 }

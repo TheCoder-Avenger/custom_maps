@@ -4,10 +4,15 @@
 import React from 'react';
 import {View, Text} from 'react-native';
 
+/**
+ * Internal dependencies
+ */
+import EmptyScreen from '../components/empty-screen';
+
 function Notification() {
   return (
     <View>
-      <Text>Notification</Text>
+      <EmptyScreen data={'notification'} />
     </View>
   );
 }

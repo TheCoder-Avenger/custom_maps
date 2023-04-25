@@ -4,10 +4,15 @@
 import React from 'react';
 import {View, Text} from 'react-native';
 
+/**
+ * Internal dependencies
+ */
+import EmptyScreen from '../components/empty-screen';
+
 function Navigations() {
   return (
     <View>
-      <Text>Navigations</Text>
+      <EmptyScreen data={'navigation'} />
     </View>
   );
 }
